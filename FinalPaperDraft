@@ -1,0 +1,96 @@
+\documentclass[12pt]{article}
+
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{natbib}
+\usepackage{geometry}
+\geometry{margin=1in}
+
+\title{From Stellar Chemistry to Planetary Habitability:\\
+Insights from the Hypatia Catalog}
+\author{Your Name}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Understanding the composition and habitability of exoplanets remains a major challenge in astrophysics due to the difficulty of directly measuring planetary interiors. This study explores the use of stellar elemental abundances, particularly from the Hypatia Catalog, as proxies for determining planetary composition and habitability. By examining relationships between stellar chemistry, planetary structure, and bioessential elements, we show that stellar abundances provide strong first-order constraints on exoplanet properties, though limitations remain due to observational uncertainties and complex formation processes.
+\end{abstract}
+
+\section{Introduction}
+
+The composition of exoplanets is difficult to determine directly, particularly for terrestrial worlds. As a result, stellar abundances provide an indirect method for inferring planetary composition \citep{Hinkel2018}. Because stars and their planets form from the same molecular cloud, their chemical compositions are closely linked. The Hypatia Catalog provides a comprehensive dataset of stellar abundances, enabling statistical studies of these relationships \citep{Hinkel2014}.
+
+This paper addresses the question: \textit{To what extent can stellar elemental abundances from the Hypatia Catalog predict the composition and habitability of exoplanets?}
+
+\section{Galactic Chemical Context}
+
+\subsection{Origin of Elements}
+
+The chemical composition of stars is determined by nucleosynthetic processes occurring throughout galactic evolution. $\alpha$-elements such as Mg and Si are produced in massive stars, while iron is primarily synthesized in Type Ia supernovae \citep{Hinkel2014}. These processes distribute elements into the interstellar medium, forming the building blocks of future stars and planetary systems.
+
+\subsection{Abundance Variation}
+
+Stellar abundances vary across the galaxy due to differences in formation history and environment. Observations show a wide range of metallicities, often quantified by [Fe/H], along with variations in $\alpha$-element abundances \citep{Hinkel2014}. These differences lead to diversity in planetary compositions.
+
+\section{The Hypatia Catalog}
+
+\subsection{What It Contains}
+
+The Hypatia Catalog is a comprehensive database of stellar elemental abundances compiled from numerous spectroscopic studies \citep{Hinkel2014}. It includes measurements for dozens of elements across thousands of stars within 150 pc. Its breadth enables statistical analysis of abundance trends and provides a foundation for studying stellar–planetary connections.
+
+\subsection{How It Works}
+
+The catalog integrates data from multiple literature sources and standardizes them by renormalizing abundances to a common solar scale \citep{Hinkel2014}. This allows meaningful comparisons between stars. The database interface further enhances accessibility \citep{Hinkel2017}.
+
+\subsection{Strengths and Limitations}
+
+While extensive, the Hypatia Catalog includes uncertainties due to variations in observational methods and data quality. Despite this, it remains a powerful tool for identifying abundance trends and exploring planetary composition.
+
+\section{Stellar Abundances and Planet Formation}
+
+Stellar abundance ratios such as Mg/Si and Fe/Mg play a critical role in determining planetary mineralogy and internal structure \citep{Hinkel2018}. These ratios influence mantle composition, core size, and overall planetary structure.
+
+\section{Planetary Composition}
+
+Planetary interiors are shaped by their host star's composition, though deviations can occur due to formation processes and migration \citep{Spaargaren2020}. Models suggest that variations in stellar abundances lead to a wide diversity of planetary structures.
+
+\section{Habitability Implications}
+
+Elemental composition also affects habitability. Bioessential elements such as carbon, nitrogen, and phosphorus play key roles in supporting life \citep{Hinkel2020}. Additionally, stellar composition influences atmospheric development and long-term climate stability \citep{Truitt2019}.
+
+\section{Limitations}
+
+Despite strong correlations, stellar abundances do not perfectly predict planetary composition due to uncertainties and complex physical processes. Measurement limitations and model assumptions must be considered \citep{Hinkel2014}.
+
+\section{Conclusion}
+
+Stellar abundances provide valuable insight into planetary composition and habitability. While not definitive predictors, they offer a powerful framework for understanding exoplanet diversity and guiding future observations.
+
+\section*{References}
+
+\begin{thebibliography}{}
+
+\bibitem[Hinkel et al.(2014)]{Hinkel2014}
+Hinkel, N. R., Timmes, F. X., Young, P. A., Pagano, M. D., \& Turnbull, M. C. 2014, \textit{The Astrophysical Journal}
+
+\bibitem[Hinkel \& Burger(2017)]{Hinkel2017}
+Hinkel, N. R., \& Burger, D. 2017, \textit{Publications of the Astronomical Society of the Pacific}
+
+\bibitem[Hinkel \& Unterborn(2018)]{Hinkel2018}
+Hinkel, N. R., \& Unterborn, C. T. 2018, \textit{The Astrophysical Journal}
+
+\bibitem[Spaargaren et al.(2020)]{Spaargaren2020}
+Spaargaren, R. J., Ballmer, M. D., Bower, D. J., Dorn, C., \& Tackley, P. J. 2020, \textit{Astronomy \& Astrophysics}
+
+\bibitem[Hinkel et al.(2020)]{Hinkel2020}
+Hinkel, N. R., Hartnett, H. E., \& Young, P. A. 2020, \textit{The Astrophysical Journal}
+
+\bibitem[Truitt et al.(2019)]{Truitt2019}
+Truitt, A., Young, P. A., \& Hinkel, N. R. 2019, \textit{The Astrophysical Journal}
+
+\end{thebibliography}
+
+\end{document}
